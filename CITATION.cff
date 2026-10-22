@@ -14,7 +14,7 @@ authors:
     given-names: Jungsu
   - family-names: Kim
     given-names: Jinseo
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-10-22
 repository-code: "https://github.com/lyullee/ammonia-supply-risk"
 license: MIT

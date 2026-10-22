@@ -31,4 +31,4 @@ screening_index = conditional_risk(1.0e-4, material_factor=1.2)
 
 Funding: This work was supported by the Korea Institute of Energy Technology Evaluation and Planning (KETEP), funded by the Korea government (Ministry of Climate, Energy and Environment) [grant number RS-2024-00437207]. The funder had no role in study design, data collection, analysis or interpretation, manuscript preparation, or the decision to submit the article.
 
-DOI는 GitHub 저장소 공개 후 Zenodo에서 발급되는 릴리스 DOI로 갱신합니다.
+릴리스 DOI는 Zenodo에서 발급되는 버전별 DOI를 사용합니다.

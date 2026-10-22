@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ammonia-supply-risk"
-version = "0.1.0"
+version = "0.1.1"
 description = "Evidence-bounded screening utilities for ammonia supply-system risk studies"
 readme = "README.md"
 requires-python = ">=3.10"
