@@ -1,3 +1,7 @@
-이 공개 저장소에는 외부 논문 원문, 상용 DWSIM 파일, PRISM·SLAB·PHAST 계열의 외부 구현물, 원시 검증 데이터가 포함되지 않습니다.
-`source_ids`는 원 논문의 참고문헌 식별자이며, 원문을 재배포한다는 뜻이 아닙니다.
-NumPy는 별도 오픈소스 라이선스에 따라 설치됩니다.
+# Public distribution notice
+
+This public repository excludes external paper full texts, proprietary DWSIM files, external PRISM/SLAB/PHAST-family implementations, and raw validation datasets.
+
+`source_ids` identify references in the underlying research paper; they do not imply redistribution of those source publications.
+
+NumPy is installed separately under its own open-source license.
