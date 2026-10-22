@@ -1,0 +1,8 @@
+family,output,top_input_1,top_input_2,top_input_3,top_input_ST,ci_half_width,change_2048_to_4096
+cold,source_peak_rate,pipe_internal_diameter_m,wet_area_m2,impact_capture_efficiency,0.519,0.031,0.006
+warm,peak_200m,pipe_internal_diameter_m,wind_speed_m_s,wet_area_m2,0.455,0.030,0.005
+warm,peak_500m,pipe_internal_diameter_m,wind_speed_m_s,wet_area_m2,0.592,0.041,0.004
+warm,load_500m,pipe_internal_diameter_m,wet_area_m2,impact_capture_efficiency,0.583,0.062,0.007
+warm,source_mass,wet_area_m2,pipe_internal_diameter_m,wind_speed_m_s,0.647,0.051,0.023
+warm,source_peak_rate,pipe_internal_diameter_m,wet_area_m2,impact_capture_efficiency,0.769,0.038,0.001
+warm,time_to_90_percent_released_mass_s,wet_area_m2,pipe_internal_diameter_m,impact_capture_efficiency,0.515,0.022,0.003

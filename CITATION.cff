@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "ammonia-supply-risk"
+message: "Please cite the associated RESS manuscript and the versioned software release."
+type: software
+authors:
+  - family-names: Lee
+    given-names: Ugwiyeon
+    email: lyullee@kgs.or.kr
+  - family-names: Bae
+    given-names: Seong-Yun
+  - family-names: Kim
+    given-names: Hakrae
+  - family-names: Lee
+    given-names: Jungsu
+  - family-names: Kim
+    given-names: Jinseo
+version: 0.1.0
+date-released: 2026-10-22
+repository-code: "https://github.com/lyullee/ammonia-supply-risk"
+license: MIT

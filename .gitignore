@@ -1,0 +1,7 @@
+.codex_deps/
+.pytest_cache/
+build/
+dist/
+src/*.egg-info/
+__pycache__/
+*.pyc

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ammonia-supply-risk"
+version = "0.1.0"
+description = "Evidence-bounded screening utilities for ammonia supply-system risk studies"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Ugwiyeon Lee", email = "lyullee@kgs.or.kr"}]
+license = "MIT"
+dependencies = ["numpy>=1.24"]
+
+[project.urls]
+Source = "https://github.com/lyullee/ammonia-supply-risk"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ammonia_supply_risk = ["data/*.json", "data/*.csv"]

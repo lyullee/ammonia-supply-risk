@@ -1,0 +1,24 @@
+{
+  "schema": "ammonia-supply-risk/material-screening/v1",
+  "reference_material": "STS316L",
+  "dimensions": ["internal_ammonia", "contamination_water_oxygen", "external_chloride_utility", "weld_haz"],
+  "weight_ranges": {
+    "internal_ammonia": [0.25, 0.60],
+    "contamination_water_oxygen": [0.10, 0.30],
+    "external_chloride_utility": [0.10, 0.35],
+    "weld_haz": [0.10, 0.30]
+  },
+  "materials": {
+    "저온용 탄소망간강": {"category": "비 스테인리스강", "scores": {"internal_ammonia": [45,65,90], "contamination_water_oxygen": [55,75,100], "external_chloride_utility": [70,90,100], "weld_haz": [55,78,100]}, "qualification": "저온 충격인성·용접강도·경도 확인 필요", "source_ids": ["R45","R47","R60"]},
+    "ASTM A333 Gr.6": {"category": "비 스테인리스강", "scores": {"internal_ammonia": [45,64,90], "contamination_water_oxygen": [55,74,100], "external_chloride_utility": [72,92,100], "weld_haz": [55,77,98]}, "qualification": "저온 배관 후보; 제품규격·MDMT·용접절차 확인 필요", "source_ids": ["R47","R49","R60"]},
+    "STS304": {"category": "오스테나이트계 스테인리스강", "scores": {"internal_ammonia": [50,65,85], "contamination_water_oxygen": [55,72,95], "external_chloride_utility": [88,98,100], "weld_haz": [70,88,100]}, "qualification": "필수 비교재; 염화물과 용접 예민화 관리", "source_ids": ["R52","R53","R54"]},
+    "STS304L": {"category": "오스테나이트계 스테인리스강", "scores": {"internal_ammonia": [45,60,82], "contamination_water_oxygen": [50,68,90], "external_chloride_utility": [85,96,100], "weld_haz": [45,62,82]}, "qualification": "액체암모니아 직접 시험은 유사 근거로만 사용", "source_ids": ["R52","R53","R54"]},
+    "STS316": {"category": "오스테나이트계 스테인리스강", "scores": {"internal_ammonia": [35,52,78], "contamination_water_oxygen": [40,60,85], "external_chloride_utility": [60,75,90], "weld_haz": [58,78,98]}, "qualification": "몰리브덴 첨가; 비-L 용접 예민화 확인", "source_ids": ["R53","R54","R59"]},
+    "STS316L": {"category": "오스테나이트계 스테인리스강", "scores": {"internal_ammonia": [35,50,75], "contamination_water_oxygen": [38,57,82], "external_chloride_utility": [55,70,85], "weld_haz": [40,56,75]}, "qualification": "기준재; 물측 염화물 SCC를 별도 관리", "source_ids": ["R53","R54","R55","R57"]},
+    "STS317": {"category": "오스테나이트계 스테인리스강", "scores": {"internal_ammonia": [33,49,76], "contamination_water_oxygen": [36,54,80], "external_chloride_utility": [42,56,72], "weld_haz": [55,74,95]}, "qualification": "필수 비교재; 용접 HAZ는 별도 확인", "source_ids": ["R49","R59"]},
+    "STS317L": {"category": "오스테나이트계 스테인리스강", "scores": {"internal_ammonia": [32,47,74], "contamination_water_oxygen": [34,52,78], "external_chloride_utility": [38,50,65], "weld_haz": [38,53,72]}, "qualification": "317과 구분되는 저탄소 비교재", "source_ids": ["R55","R56","R58","R59"]},
+    "듀플렉스 2205": {"category": "듀플렉스 스테인리스강", "scores": {"internal_ammonia": [30,48,80], "contamination_water_oxygen": [30,50,82], "external_chloride_utility": [22,38,58], "weld_haz": [40,60,85]}, "qualification": "염화물 후보; 저온·용접 상분율 확인 필요", "source_ids": ["R55","R61"]},
+    "254 SMO": {"category": "고합금 오스테나이트계 스테인리스강", "scores": {"internal_ammonia": [30,48,78], "contamination_water_oxygen": [28,45,75], "external_chloride_utility": [14,28,45], "weld_haz": [38,58,82]}, "qualification": "고염화물 상한 비교재; 암모니아 직접 적합성 검증 필요", "source_ids": ["R62"]}
+  },
+  "limitations": ["점수는 조건부 손상 프록시이며 관측 고장률이 아님", "제품형태·설계온도·압력코드·용접절차·검사 POD를 별도 확인해야 함"]
+}
